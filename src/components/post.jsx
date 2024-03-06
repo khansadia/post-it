@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Post(props) {
-  // This generat a random function for the post-it 
+  // This generate a random function for the post-it 
     const randomColors = (colorArray) => {
       const randomIndex = Math.floor(Math.random() * colorArray.length);
       return colorArray[randomIndex];

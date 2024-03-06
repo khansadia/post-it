@@ -34,7 +34,7 @@ export default function AddPost(props) {
         ></textarea>
       </div>
       <button type="submit" className="btn-submit">
-        Add Post
+        Add Your Post
       </button>
     </form>
   );
